@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    background-color: #e5eeff;
+}
+
+/* Referente ao cabeçalho */
+.header-container {
+    display: flex;
+    color: #e8eaed;
+    height: 100px;
+    padding: 12px;
+    background-color: #2c3f66;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nome {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.nome-escola {
+    font-size: 24px;
+    font-weight: 1000;
+    font-style: italic;
+}
+
+/* Referente à caixa de login*/
+.login-container {
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    border-radius: 8px;
+    background-color: #d5d5d5;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    height: 600px;
+    width: 450px;
+}
+
+.username-container,
+.senha-container {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+}
+
+
+/* Referente ao botão de login */
+button {
+    padding: 10px 20px;
+    color: #e8eaed;
+    background-color: #2c3f66;
+    border-radius: 8px;
+
+}
+
+/* Referente ao rodapé da página*/
+.footer-container {
+    display: flex;
+    height: 100px;
+    color: #e8eaed;
+    padding: 12px;
+    background-color: #2c3f66;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
